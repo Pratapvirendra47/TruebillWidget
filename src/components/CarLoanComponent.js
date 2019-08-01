@@ -95,7 +95,14 @@ class CarLoanComponent extends React.Component {
 							</button>
 							{
 								this.state.hasError ? 
-									<div>
+									<div
+										style={{
+											marginTop: "10px",
+											fontSize: "21px",
+											fontWeight: "bold",
+											color: 'red'
+										}}
+									>
 										Enter Data
 									</div> :
 								null
